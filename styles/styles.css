@@ -2,3 +2,160 @@ body{
     font-family: "Montserrat",sans-serif;
     background-color:aliceblue;
 }
+.main{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+}
+.Main_Content{
+    background-color: #ffffff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 1);
+    padding: 30px 90px 90px;
+}
+.about_user{
+    margin-bottom: 40px;
+}
+.about_user_name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.25em;
+    color: #000000;
+    margin-bottom: 45px;
+}
+.about_user_description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6em;
+    color: #595959;
+    width: 500px;
+}
+.work{
+    margin-bottom: 40px;
+    
+}
+.title{ 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.25em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.period{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.3em;
+    color: #a8a8a8;
+    margin-bottom: 10px;
+}
+.period_line{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.3em;
+    color: #000000;
+  }
+.work_position{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.3em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.organization{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.4em;
+    color: #fb6d3a;
+}
+
+.work_list{
+    padding: 0;
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.7em;
+    color: #595959;
+}
+.work_list_item{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7em;
+    color: #595959;
+}
+.education{
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+.education_univesity{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.3em;
+    color: #fb6d3a;
+    margin-bottom: 10px;
+}
+.education_position{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.3em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.sidebar{
+    background-color: #1e2939;;
+    padding-top: 40px;
+    width: 370px;
+    font-style: normal;
+    color: #ffffff;
+}
+.photo{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center -20px;
+    margin-left: 35px;
+    margin-bottom: 50px;
+}
+.contacts{
+    margin-bottom: 50px;
+}
+
+.contacts,
+.interest,
+.languages{
+    margin-left: 40px;
+}
+
+.sidebar_title{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.3em;
+    margin-bottom: 20px;
+}
+
+.contact_type{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.3em;
+    margin-right: 5px;
+    
+}
+.contact_link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3em;
+    color: #8e949c;
+    margin-right: 5px;
+    
+}
