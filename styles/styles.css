@@ -105,10 +105,11 @@ body{
     object-fit: cover;
     object-position: center -20px;
     margin-left: 60px;
+    margin-right: 60px;
     margin-bottom: 50px;
 }
 .contacts{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .contacts,
@@ -119,7 +120,7 @@ body{
 .sidebar_title{
     font-size: 22px;
     line-height: 1.3em;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 .contact_type{
     font-size: 18px;
@@ -130,6 +131,7 @@ body{
     font-weight: 400;
     font-size: 17px;
     line-height: 1.3em;
+    margin-top: 10px;
     margin-right: 5px;
 }
 .contact_link{
